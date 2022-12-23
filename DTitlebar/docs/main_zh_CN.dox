@@ -1,0 +1,12 @@
+/*!
+@~chinese
+@fn int main()
+@brief 程序入口主函数
+@param[in] argc 系统变量
+@return 返回程序执行结果
+@retval 0程序执行失败
+@retval 其他 程序执行成功
+@note 一个程序只能有一个主函数
+
+
+*/

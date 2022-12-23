@@ -1,0 +1,35 @@
+{
+    "groups": [{
+        "key": "base", 
+        "name":  "基础设置", 
+        "groups": [{
+            "key": "setting1", 
+            "name": "设置一", 
+            "options": [{
+                "key": "opt1_1", 
+                "type": "checkbox", 
+                "text": "这是设置一1"
+            },
+            {
+                "key": "opt1_2", 
+                "type": "checkbox", 
+                "text": "这是设置一2"
+            }]
+        }, 
+        {
+            "key": "setting2", 
+            "name": "设置二", 
+            "options": [{
+                "key": "opt2_1", 
+                "type": "checkbox", 
+                "text": "这是设置二1"
+            },
+            {
+                "key": "opt2_2", 
+                "type": "checkbox", 
+                "text": "这是设置二2"
+            }]
+        }]
+
+    }]
+}
