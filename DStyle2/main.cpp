@@ -32,7 +32,7 @@ int main(int argc, char *argv[]){
     //通过 QMetaEnum::fromType 实现枚举值和字符串的转化
     QMetaEnum meta = QMetaEnum::fromType<QStyle::StandardPixmap>();
     //循环写入listview的名称和图标，此处为DTK重绘QT图标
-    for(int i = DStyle::SP_TitleBarMenuButton; i <= DStyle::SP_RestoreDefaultsButton; i++) {
+    for(int i = DStyle::SP_TitleBarMenuButton; i <= 70; i++) {
         insertItem(meta.valueToKey(i), style->standardIcon(DStyle::StandardPixmap(i)));
     }
 
