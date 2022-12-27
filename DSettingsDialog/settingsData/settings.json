@@ -1,41 +1,90 @@
 {
     "groups": [{
-        "key": "base",
-        "name": "Basic settings",
+        "key": "base", 
+        "name":  "基础设置", 
         "groups": [{
-                "key": "open_action",
-                "name": "Open Action",
-                "options": [{
-                        "key": "alway_open_on_new",
-                        "type": "checkbox",
-                        "text": "Always Open On New Windows",
-                        "default": true
-                    },
-                    {
-                        "key": "open_file_action",
-                        "name": "Open File:",
-                        "type": "combobox",
-                        "default": ""
-                    }
-                ]
+            "key": "setting1", 
+            "name": "设置一", 
+            "options": [{
+                "key": "checkbox_ex", 
+                "type": "checkbox",
+                "text": "是否打开此选项", 
+                "default": "true"
             },
             {
-                "key": "new_tab_windows",
-                "name": "New Tab & Window",
-                "options": [{
-                        "key": "new_window_path",
-                        "name": "New Window Open:",
-                        "type": "combobox",
-                        "default": ""
-                    },
-                    {
-                        "key": "new_tab_path",
-                        "name": "New Tab Open:",
-                        "type": "combobox",
-                        "default": ""
-                    }
-                ]
-            }
-        ]
+                "key": "combobox_ex", 
+                "type": "combobox",
+                "name": "请选择"
+            }]
+        }, 
+        {
+            "key": "setting2", 
+            "name": "设置二", 
+            "options": [{
+                "key": "lineedit_ex", 
+                "type": "lineedit"
+            },
+            {
+                "key": "shortcut_ex", 
+                "type": "shortcut"
+            }]
+        }, 
+        {
+            "key": "setting3", 
+            "name": "设置三", 
+            "options": [{
+                "key": "spinbutton_ex", 
+                "type": "spinbutton"
+            },
+            {
+                "key": "buttongroup_ex", 
+                "type": "buttongroup", 
+                "items": ["yes","no"],
+                "default": 1
+            }]
+        }, 
+        {
+            "key": "setting4", 
+            "name": "设置四", 
+            "options": [{
+                "key": "slider_ex", 
+                "type": "slider", 
+                "max": 100, 
+                "min": 0, 
+                "default": 50
+            },
+            {
+                "key": "radiogroup_ex", 
+                "type": "radiogroup", 
+                "items": ["选项一","选项二"],
+                "default": 1
+            }]
+        }, 
+        {
+            "key": "setting5", 
+            "name": "设置五", 
+            "options": [{
+                "key": "switchbutton_ex", 
+                "type": "switchbutton", 
+                "name": "switchbutton"
+            },
+            {
+                "key": "title1_ex", 
+                "type": "title1", 
+                "text": "title1", 
+                "default": "这是title1"
+            },
+            {
+                "key": "title2_ex", 
+                "type": "title2", 
+                "text": "title2", 
+                "default": "这是title2"
+            },
+            {
+                "key": "icon-button", 
+                "type": "icon-button"
+            }]
+        }]
+
     }]
 }
